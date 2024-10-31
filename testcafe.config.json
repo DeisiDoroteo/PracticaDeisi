@@ -1,0 +1,14 @@
+{
+  "src": "tests",
+  "browsers": ["edge:headless"],
+  "reporter": {
+    "name": "spec"
+  },
+  "screenshots": {
+    "takeOnFails": true,
+    "path": "screenshots"
+  },
+  "quarantineMode": true,
+  "skipJsErrors": true,
+  "pageLoadTimeout": 8000
+}
