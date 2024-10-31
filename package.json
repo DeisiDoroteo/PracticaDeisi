@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "testcafe": "testcafe --config-file testcafe.config.js"
+    "testcafe": "testcafe --config-file testcafe.config.cjs"
   },
   "dependencies": {
     "react": "^18.3.1",
